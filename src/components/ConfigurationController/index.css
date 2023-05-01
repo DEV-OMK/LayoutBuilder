@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.configuration-controller-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #475569;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.configuration-controller-responsive-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.configuration-controller-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.controller-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-controller {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.input-label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}

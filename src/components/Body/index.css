@@ -1,0 +1,139 @@
+.body-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 425px;
+}
+
+@media screen and (min-width: 768px) {
+  .body-bg-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.left-navbar-container,
+.right-navbar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 25px;
+}
+
+.content-container {
+  text-align: center;
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .left-navbar-container {
+    width: 28%;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-right: 4px;
+    flex-shrink: 0;
+  }
+
+  .right-navbar-container {
+    width: 28%;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-left: 4px;
+    flex-shrink: 0;
+  }
+
+  .content-container {
+    text-align: left;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+}
+
+.left-navbar-title,
+.right-navbar-title,
+.content-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.left-navbar-content-container,
+.right-navbar-content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .left-navbar-content-container,
+  .right-navbar-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.left-navbar-item {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.content-item {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .left-navbar-item {
+    width: 33%;
+    text-align: center;
+  }
+}
+
+.right-navbar-item {
+  width: 46%;
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  border: 1px solid #475569;
+  margin: 2%;
+}
+
+@media screen and (min-width: 768px) {
+  .right-navbar-item {
+    width: 96%;
+  }
+}
